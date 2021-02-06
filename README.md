@@ -60,3 +60,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+<br /> <br />
+<h1>How to setup your project for local development </h1>
+<p>Once you have all the neccesary stuffs install on your PC, the following steps shows you how to create a laravel-vue project </p>
+<p>Open your termina and run... </p>
+<ul>
+<!-- Create laravel project -->
+<li><i>laravel new [projectName]</i></li> 
+<!-- install vue.js with auth -->
+<li><i>composer require laravel/ui</i></li>
+<li><i>php artisan ui vue --auth</i></li>
+<li><i>npm install</i></li>
+<li><i>npm run dev</i></li>
+<!-- install boostrap with auth -->
+<li><i>php artisan ui bootstrap --auth</i></li>
+<li><i>npm run dev</i></li>
+</ul>
